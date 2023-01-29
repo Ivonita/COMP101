@@ -20,7 +20,7 @@ my_age = 36
 # or Float
 temp = 2.2
 
-# <class 'int>
+# <class 'int'>
 print(type(my_age))
 
 ## Calculate the year I was born:
@@ -45,4 +45,9 @@ my_pet = {
     'animal': 'cat',
     'age': 2,
     'cute': True,
+}
+
+my_tweet = {
+    'text': 'Hello',
+    'date': '2023.01.23'
 }
