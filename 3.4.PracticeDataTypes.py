@@ -12,12 +12,15 @@ print(type(name))
 email = 'viskha.ivonita@gmail.com'
 print(type(email))
 
-phonenumber = +49123456789
+phonenumber = '+49 1234 56789'
 print(type(phonenumber))
+print(phonenumber)
 
 list_of_education = ['Master German Literatur - Humboldt Universität zu Berlin', 'Bachelor German Literatur - Universitas Padjadjaran']
 print(type(list_of_education))
-print(*list_of_education, sep=', ')
+# print(*list_of_education, sep=', ')
+for hedu in list_of_education:
+    print (hedu)
 
 list_of_jobs = [
     { 'company': 'idealo GmbH', 'role': 'Customer Care', 'date': '2017 until now' },
@@ -28,7 +31,9 @@ print(type(list_of_jobs))
 
 list_of_skills = ['excellent communication skills', 'computer literacy', 'writing', 'creativity', 'empathy']
 print(type(list_of_skills))
-print(*list_of_skills, sep=', ')
+# print(*list_of_skills, sep=', ')
+for skill in list_of_skills:
+    print(skill)
 
 my_cv = {
     'Name': name,
