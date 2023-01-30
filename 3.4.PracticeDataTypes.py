@@ -35,14 +35,5 @@ print(type(list_of_skills))
 for skill in list_of_skills:
     print(skill)
 
-my_cv = {
-    'Name': name,
-    'email': email,
-    'Phonenumber': phonenumber,
-    'List of education': list_of_education,
-    'List of skills': list_of_skills
-}
-print(type(my_cv))
-
 
 
