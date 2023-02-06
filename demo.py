@@ -100,7 +100,7 @@ input_guests = int(input("What is the guests?"))
 result_two = calculate_split_bill(input_bill, input_tip, input_guests)
 print(result_two)
 
-#Beispiel
+#example from sololearn
 
 def sum(x):
     res = 0
