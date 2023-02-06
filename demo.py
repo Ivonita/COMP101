@@ -106,7 +106,7 @@ def sum(x):
     res = 0
     for i in range(x):
     #[0,1,2,3]
-        res+1=i
+        res+1= i
     return res
 
 #longer to see result:
